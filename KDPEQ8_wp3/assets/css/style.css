@@ -1,0 +1,149 @@
+body{
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	padding-bottom: 5%;
+}
+.form-control{
+	font-size: 16px;
+	background-color: #e9e9e9;
+}
+.form-group{
+	width: 40%;
+	margin-bottom: 30px;
+}
+.navbar{
+	height: 60px;
+	padding-right: 50px;
+	padding-left: 50px;
+	box-shadow: 0px 8px 15px 1px rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+}
+.home-title{
+	font-size: 20px;
+	margin-top: 5%;
+}
+.home-title h1{
+	font-size: 36px;
+}
+.container-fluid{
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.post-date{
+	background-color: #ececec;
+	padding: 4px;
+	margin: 3px 0;
+	display:block;
+}
+.post-content{
+	margin: auto;
+	width: 50%;
+}
+.post-content img{
+	box-shadow: 0px 8px 15px 1px rgba(0,0,0,0.2);
+	margin-top: 5px;
+}
+.post-body{
+	font-size: 16px;
+	padding: 20px;
+	background-color: #fff;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+.categories-content{
+	font-size: 20px;
+	margin: auto;
+	width: 30%;
+}
+.categories-content h2{
+	margin-bottom: 40px;
+}
+.categories-content li{
+	transition: 0.5s;
+}
+.categories-content li:hover{
+	transition: 0.5s ease;
+	background-color: #eaeaea;
+}
+.list-group-item{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(0,0,0,0.0);
+	border: 0;
+}
+.row{
+	text-align: justify;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+}
+.comments{
+	margin-top: 10%;
+}
+.comments h3{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.comments b{
+	line-height: 1em;
+	font-size: 16px;
+	color: #3d4042;
+}
+.comment-name{
+	background-color: #ececec;
+	padding: 5px;
+}
+.comment-body{
+	font-size: 14px;
+	margin-top: 0px;
+	background-color: white;
+	padding: 5px;
+	text-align: justify;
+	margin-bottom: 3%;
+}
+.register-form{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 60%;
+	background-color: white;
+	border-radius: 20px;
+}
+.register-form h2{
+	margin-bottom: 20px;
+}
+.login-form{
+	margin-top: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 60%;
+	background-color: white;
+	border-radius: 20px;
+}
+.login-form h2{
+	margin-bottom: 20px;
+}
+.container-fluid .alert{
+	width: 50%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.pagination-links{
+	margin-top: 30px;
+}
+a.pagination-links{
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: white;
+	border: 1px #ccc solid;
+}
+.category-delete{
+	display: inline;
+}
+.category-delete input{
+	font-size: 14px;
+	border-radius: 50px;
+	padding: 10px;
+	line-height: 0.5em;
+	margin-left: 30px;
+}
